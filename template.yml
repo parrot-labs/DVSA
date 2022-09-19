@@ -27,7 +27,7 @@ Metadata:
 
 Parameters:
   AdminEmail:
-    
+    Description: "Email for admin user. Default password: 'changeme!' (verification email will be sent, when not using default)."
     Type: String
     Default: dvsa.admin@1secmail.com
   WebsiteBucketPrefix:
@@ -360,7 +360,7 @@ Resources:
         Ref: CognitoUserPoolDvsaUserPool
       ExplicitAuthFlows:
         - ADMIN_NO_SRP_AUTH
-      
+      GenerateSecret: false
 
   CognitoUserPoolLambdaExecutionPermission:
     Type: AWS::Lambda::Permission
