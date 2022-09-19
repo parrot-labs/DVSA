@@ -27,7 +27,7 @@ Metadata:
 
 Parameters:
   AdminEmail:
-    Description: "Email for admin user. Default password: 'changeme!' (verification email will be sent, when not using default)."
+    
     Type: String
     Default: dvsa.admin@1secmail.com
   WebsiteBucketPrefix:
