@@ -360,7 +360,7 @@ Resources:
         Ref: CognitoUserPoolDvsaUserPool
       ExplicitAuthFlows:
         - ADMIN_NO_SRP_AUTH
-      GenerateSecret: false
+      
 
   CognitoUserPoolLambdaExecutionPermission:
     Type: AWS::Lambda::Permission
