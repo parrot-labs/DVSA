@@ -38,7 +38,7 @@ def get_sum(ccn):
 
 
 def lambda_handler(event, context):
-    #n = random.randint(2, 4)  # this is to play the role of an external service.
+    n = random.randint(2, 4)  # this is to play the role of an external service.
     time.sleep(n)
     data = json.loads(event["body"])
     ccn = data['ccn']
