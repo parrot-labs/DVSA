@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "main": "order-manager-js.js",
   "dependencies": {
-    "aws-sdk": "^2.401.0",
-    "node-jose": "^0.3.0",
+    "aws-sdk": "^2.1220.0",
+    "node-jose": "^2.1.1",
     "node-serialize": "^0.0.4"
   },
   "scripts": {
