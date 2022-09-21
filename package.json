@@ -32,6 +32,7 @@
     "serverless-stack-output": "^0.2.3"
   },
   "dependencies": {
+    "acorn": "^5.7.4",
     "serverless": "^3.18.2",
     "serverless-offline": "^8.8.0"
   }
